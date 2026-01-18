@@ -2,4 +2,4 @@
 title: "Home"
 ---
 
-Welcome to Pelau. A space for writing about policy, cycling, and technology.
+Welcome to Pelau. A space for writing about travel, public policy, motorcycling, and technology.
