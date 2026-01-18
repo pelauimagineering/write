@@ -1,10 +1,10 @@
-baseURL = 'https://pelau.com/'
+baseURL = 'https://write.pelau.com/'
 languageCode = 'en-us'
 title = 'Pelau - Ride, Write & Reason'
 theme = 'minimal'
 
 [params]
-  description = "Articles on policy, technology, and ideas"
+  description = "Articles on travel, public policy, technology, motorcyles, and ideas"
   author = "Darren"
 
 [menu]
