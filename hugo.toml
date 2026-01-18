@@ -1,0 +1,29 @@
+baseURL = 'https://pelau.com/'
+languageCode = 'en-us'
+title = 'Pelau - Ride, Write & Reason'
+theme = 'minimal'
+
+[params]
+  description = "Articles on policy, technology, and ideas"
+  author = "Darren"
+
+[menu]
+  [[menu.main]]
+    name = "Articles"
+    url = "/articles/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow raw HTML in markdown if needed
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]

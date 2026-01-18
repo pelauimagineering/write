@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h1>{{ .Site.Title }}</h1>
+{{ .Content }}
+
+{{ with .Site.GetPage "/articles" }}
+<section>
+    <h2>Recent Articles</h2>
+    <ul class="article-list">
+        {{ range first 5 .Pages }}
+        <li>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+    <p><a href="/articles/">View all articles &rarr;</a></p>
+</section>
+{{ end }}
+{{ end }}

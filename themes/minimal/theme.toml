@@ -1,0 +1,12 @@
+# Minimal theme for Hugo - Zero JavaScript
+name = "Minimal"
+license = "MIT"
+licenselink = "https://github.com/your-repo"
+description = "A minimal Hugo theme with zero JavaScript"
+
+[author]
+  name = "Pelau"
+
+[original]
+  name = "Minimal"
+  homepage = "https://pelau.com"

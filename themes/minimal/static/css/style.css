@@ -1,0 +1,145 @@
+/* Minimal CSS - No JavaScript Required */
+:root {
+    --text: #333;
+    --bg: #fff;
+    --accent: #0066cc;
+    --muted: #666;
+    --border: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #e0e0e0;
+        --bg: #1a1a1a;
+        --accent: #6ab0ff;
+        --muted: #999;
+        --border: #444;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+header nav {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    margin: 1.5rem 0 1rem;
+    line-height: 1.3;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+p {
+    margin-bottom: 1rem;
+}
+
+.article-list {
+    list-style: none;
+}
+
+.article-list li {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.article-list time {
+    display: block;
+    color: var(--muted);
+    font-size: 0.875rem;
+}
+
+article header {
+    margin-bottom: 2rem;
+}
+
+article header time,
+article header .author {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+article .content {
+    margin-bottom: 2rem;
+}
+
+article .content img {
+    max-width: 100%;
+    height: auto;
+}
+
+article .content blockquote {
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: var(--muted);
+}
+
+article .content pre {
+    background: var(--border);
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 4px;
+}
+
+article .content code {
+    font-family: "SF Mono", Monaco, monospace;
+    font-size: 0.9em;
+}
+
+.tags {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tags li a {
+    background: var(--border);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.875rem;
+}
