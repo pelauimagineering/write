@@ -2,7 +2,7 @@
 <article>
     <header>
         <h1>{{ .Title }}</h1>
-        <time datetime="{{ .Date.Format '2006-01-02' }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
         {{ with .Params.author }}<span class="author">by {{ . }}</span>{{ end }}
     </header>
     <div class="content">
