@@ -1,7 +1,7 @@
 ---
 title: "No Right Turns on Red Lights"
 date: 2025-01-17
-author: "Darren"
+author: "Dee"
 tags: ["policy", "urban-planning", "safety"]
 description: "Why cities should reconsider allowing right turns on red lights"
 ---
