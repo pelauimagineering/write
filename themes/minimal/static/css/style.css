@@ -96,6 +96,7 @@ article header .author {
 
 article .content {
     margin-bottom: 2rem;
+    height: auto; /* Ensure proper height for content area -- just a bump test, really. */
 }
 
 article .content img {
