@@ -11,7 +11,7 @@
     {{ with .Params.tags }}
     <footer>
         <ul class="tags">
-            {{ range . }}<li><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>{{ end }}
+            {{ range . }}<li><a href="/write/tags/{{ . | urlize }}">{{ . }}</a></li>{{ end }}
         </ul>
     </footer>
     {{ end }}
