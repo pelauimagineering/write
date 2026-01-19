@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-Pelau is a platform for writing about policy, cycling, and technology.
+Pelau is a platform for writing about travel, public policy, motorcycling, and technology.
 
 ## Contact
 
