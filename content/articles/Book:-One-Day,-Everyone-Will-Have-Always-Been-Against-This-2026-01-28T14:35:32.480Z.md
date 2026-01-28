@@ -1,0 +1,1 @@
+We say that, sometimes, when it’s our children killed: Remember. And it may seem now like it’s someone else’s children, but there’s no such thing as someone else’s children.
